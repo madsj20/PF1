@@ -112,6 +112,8 @@ GameObject:
   - component: {fileID: 5188601118858459890}
   - component: {fileID: 5188601118858459893}
   - component: {fileID: 5188601118858459892}
+  - component: {fileID: -3897321889430754596}
+  - component: {fileID: -8812807452879521375}
   m_Layer: 6
   m_Name: Player 2
   m_TagString: Untagged
@@ -267,6 +269,37 @@ MonoBehaviour:
   showGizmos: 0
   showOverlay: 0
   overlayColor: {r: 0, g: 0, b: 0, a: 0.5}
+--- !u!114 &-3897321889430754596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5188601118858459659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55ae8ba650d0c124f92aea6f4a49e53c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncDirection: 0
+  syncMode: 0
+  syncInterval: 0.1
+  player: {fileID: 5188601118858459890}
+--- !u!114 &-8812807452879521375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5188601118858459659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceade984bc4c2fb46899425e4ee31e5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Kicker: {fileID: 7323561711899467803}
+  Foot: {fileID: 8286637439057126719, guid: eb1158b5008756143be318c851852e89, type: 3}
+  Foot_Forward_Force: 0
 --- !u!1 &7323561711899467803
 GameObject:
   m_ObjectHideFlags: 0
@@ -290,11 +323,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7323561711899467803}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0.05, z: -0.045}
   m_LocalScale: {x: 0.99999976, y: 4, z: 0.99999976}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5188601118858459895}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}

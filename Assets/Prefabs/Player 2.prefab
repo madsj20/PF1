@@ -299,7 +299,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Kicker: {fileID: 7323561711899467803}
   Foot: {fileID: 8286637439057126719, guid: eb1158b5008756143be318c851852e89, type: 3}
-  Foot_Forward_Force: 0
+  Foot_Forward_Force: 33
 --- !u!1 &7323561711899467803
 GameObject:
   m_ObjectHideFlags: 0
@@ -323,11 +323,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7323561711899467803}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0.05, z: -0.045}
   m_LocalScale: {x: 0.99999976, y: 4, z: 0.99999976}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5188601118858459895}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}

@@ -48,13 +48,13 @@ public class NewNetworkManager : NetworkManager
         if (player.isFast == true && spawnP2 == false)
         {
             Debug.Log("Spawn player 1");
-            gameobject = Instantiate(Player1, playerPosition, new Quaternion(0, 0, 0, 0));
+            gameobject = Instantiate(Player1, new Vector3(-8, 0, 0), new Quaternion(0, 0, 0, 0));
             spawnP2 = true;
         }
         else if (spawnP2 == true)
         {
             Debug.Log("Spawn player 2");
-            gameobject = Instantiate(Player2, playerPosition, new Quaternion(0, 0, 0, 0));
+            gameobject = Instantiate(Player2, new Vector3(8, 0, 0), new Quaternion(0, 0, 0, 0));
         }
         else
         {
